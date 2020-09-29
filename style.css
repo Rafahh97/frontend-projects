@@ -14,9 +14,9 @@ div{
 }
 .perfil .nome{
     font-family: 'Suez One', serif;
-    color: crimson;
+    color: white;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: black;
 }
 .perfil img{
     width: 10%;
@@ -35,7 +35,7 @@ div{
     padding: 8px;
 }
 .redessociais a span:hover{
-    color: crimson;
+    color: slateblue;
     background-color: white;
 }
 .redessociais img{
@@ -46,7 +46,7 @@ div{
     body{
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url(background2.jpg);
+        background-image: url(bg2.jpg);
         overflow: hidden;
     }
     .perfil{
