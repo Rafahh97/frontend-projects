@@ -1,9 +1,19 @@
 body{
     background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
-div{
+.all{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.itens{
+    justify-content: center;
+    display: flex;    
 }
 .perfil{
     flex-direction: column;
@@ -25,22 +35,20 @@ div{
     border: solid 3px;
     border-color: black;
 }
-.redessociais{
-    justify-content: center;
-    font-size: x-large;
-}
 .redessociais a{
     color:white;
     text-decoration: none;
-    padding: 8px;
+    font-size: 15px;
+    padding: 10px;
+    border-color: white;
+    border: solid 2px;
+    border-radius: 5%;
+    width: 100px;
+    text-align: center;
 }
-.redessociais a span:hover{
+.redessociais a:hover{
     color: slateblue;
     background-color: white;
-}
-.redessociais img{
-    width: 3%;
-    height: 3%;
 }
  @media only screen and (max-width: 768px){
     body{
@@ -60,12 +68,9 @@ div{
         border: solid 3px;
         border-color: black;
     }
-    .redessociais{
-        font-size: 15px;
+    .redessociais a{
+        font-size: 12px;
         text-align: center;
-    }
-    .redessociais img{
-        width: 8%;
-        height: 8%;
+        width: 12%;
     }
  }
